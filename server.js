@@ -17,7 +17,7 @@ app.use(
 app.use(async (ctx, next) => {
   ctx.response.set(
     "Access-Control-Allow-Origin",
-    ""
+    "https://github.com/Sergl82/ra-router-crud"
   );
   await next();
 });
